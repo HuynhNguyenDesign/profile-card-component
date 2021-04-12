@@ -3,65 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <!-- Favicon -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-<!-- Style Sheet -->
-  <link rel="stylesheet" href="./styles.css" type="text/css">
-  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./styles.css">
+
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body></body>
-  <!-- Container -->
+<body>
+
+  <!-- Outer Container -->
   <div class="container">
 
-    <!-- Card Body-->
+    <!-- user card -->
     <div class="card">
-
-      <!-- Card Header -->
-      <header>
-
-        <!-- Decorative Background -->
+      <!-- card header -->
+      <div class="card-head">
+        <!-- decorative background -->
         <div></div>
-
-        <!-- User Card Header -->
-        <img src="./images/image-victor.jpg" alt="Victor Crest">
-        <h2>Victor Crest</h2>
-        <h2>26</h2>
-        <h3>London</h3>  
-      </header>
-
-      <!-- User Card Body -->
-      <main>
-
-        <!-- Followers Count -->
-        <div class="followers">
-          <h2>80K</h2>
-          <h3>Followers</h3> 
-        </div>
-
-        <!-- Likes Count-->
-        <div class="likes">
-          <h2>803K</h2>
-          <h3>Likes</h3>
-        </div>
-
-        <!-- Photo Count -->
         <div>
-          <h2>1.4K</h2>
-          <h3>Photos</h3>
+          <!-- user avatar -->
+          <img src="./images/image-victor.jpg" alt="Victor Crest">
+          <!-- user name + age -->
+          <h2>Victor Crest<span>29</span></h2>
+          <!-- user city -->
+          <p>London</p>
         </div>
-      </main> 
+      </div>
+
+      <!-- card body -->
+      <div class="card-body">
+        <!-- followers count -->
+        <div>
+          <h3>80k</h3>
+          <p>followers</p>
+        </div>
+        <!-- likes count -->
+        <div>
+          <h3>803k</h3>
+          <p>likes</p>
+        </div>
+        <!-- photos count -->
+        <div>
+          <h3>1.4k</h3>
+          <p>photos</p>
+        </div>
+      </div>
     </div>
   </div>
 
